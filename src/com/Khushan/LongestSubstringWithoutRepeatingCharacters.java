@@ -29,8 +29,10 @@ public class LongestSubstringWithoutRepeatingCharacters {
                 temp = 0;
                 break innerloop;
             }
-            hashMap.put(s.charAt(i), temp);
-            temp++;
+         //   else {
+                hashMap.put(s.charAt(i), temp);
+                temp++;
+           // }
         }
     }
        // lengthOfSubstrings.add(hashMap.size());
